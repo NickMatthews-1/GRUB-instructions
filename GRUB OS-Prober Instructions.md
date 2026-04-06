@@ -36,8 +36,8 @@ If the prober line isn't there you can add it with
 Once you have done this then you will need to update GRUB using the update GRUB function
 
 
-```sudo update-grub```
+```sudo grub-mkconfig -o /boot/grub/grub.cfg```
 
 From this point you can reboot your system and you will get all installed OSes shown on your GRUB menu screen.
 
-<!-- #Subject to GPLv3 License Copyright Nicholas Matthews 2024 -->
+<!-- #Subject to GPLv3 License Copyright Nicholas Matthews 2026 -->
