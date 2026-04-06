@@ -13,7 +13,7 @@ If OS-Prober is not found you will need to install it from your package manager
 Now that OS-Prober is installed you can then check to see if OS-Prober is disabled by doing the following
 
 ```
-sudo cat /etc/default/GRUB | grep 'GRUB_DISABLE_OS_PROBER'
+sudo cat /etc/default/grub | grep 'GRUB_DISABLE_OS_PROBER'
 ```
 If the output is
 
